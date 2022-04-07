@@ -15,18 +15,23 @@
 <p>Especificando mais, o Javascript atua na programação front-end, — a parte “visual” de uma aplicação (geralmente um site ou um app). Neste caso, o Javascript é usado junto com outras duas linguagens iniciais, o HTML e CSS. </p>
 </p>
 
+<br>
 
 <h3 align="center"> Declarações e suas diferenças</h3>
 
 <img align="center" src="https://storage.googleapis.com/hcode.com.br/blog/posts/159/cover_copy.jpg">
 
+<br>
+
 <p> 
-    <ul>
+    <ol>
         <li>As declarações de <b>var</b> tem escopo global ou de função, enquanto as declarações de <b>let</b> e de <b>const</b> têm escopo de bloco.</li>
         <li>Variáveis de <b>var</b> podem ser atualizadas e declaradas novamente dentro de seu escopo. As variáveis de <b>let</b> podem ser atualizadas, mas não podem ser declaradas novamente. As variáveis de <b>const</b> não podem ser atualizadas nem declaradas novamente.</li>
         <li>Todas elas passam por hoisting para o topo de seu escopo. Porém, enquanto variáveis com <b>var</b> são inicializadas com <em>undefined</em>, as variáveis com <b>let</b> e <b>const</b> não são inicializadas.</li>
         <li>Enquanto <b>var</b> e <b>let</b> podem ser declaradas sem ser inicializadas, const precisa da inicialização durante a declaração.</li>
 </p>
+
+<br>
 
 <img align="center" src="https://pbs.twimg.com/media/EeVw-DOXgAAMtKk.jpg">
 
@@ -47,7 +52,7 @@ Uma função é um bloco de código escrito para realizar algum conjunto especí
 <h4>Método</h4>
 <p>
 Um método JavaScript é uma propriedade de um objeto que contém uma definição de função. Métodos são funções armazenadas como propriedades do objeto. 
-    <ul>
+    <ol>
         <li>Um método consiste em um código que pode ser chamado pelo nome de seu objeto e seu nome de método usando a notação de ponto ou a notação de colchetes.</li>
         <li>O método opera os dados contidos em uma classe.</li>
         <li>Um método passa implicitamente o objeto no qual foi chamado.</li>
