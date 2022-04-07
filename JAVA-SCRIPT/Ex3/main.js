@@ -10,3 +10,5 @@ function reverse(meuNome){
 
 var nomeInvertido = reverse(meuNome)
 console.log("Nome invertido: " + nomeInvertido)
+
+// https://www.delftstack.com/pt/howto/javascript/reverse-string-javascript/
