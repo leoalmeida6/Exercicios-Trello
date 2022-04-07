@@ -39,24 +39,24 @@
 <h4>Função</h4>
 <p>
 Uma função é um bloco de código escrito para realizar algum conjunto específico de tarefas. Podemos definir uma função usando a palavra-chave function , seguida por Nome e parâmetros opcionais . O corpo da função é colocado entre colchetes Curly.
-
-    <ul>
+</p>
+<ol>
         <li>Uma função pode ser chamada diretamente por seu nome.</li>
         <li>Uma função pode passar os dados que são operados e pode retornar os dados. </li>
         <li>Os dados passados ​​para uma função são explícitos.</li>
         <li>Uma função vive sozinha.</li>
-</p>
+</ol>
 
 <br>
 
 <h4>Método</h4>
 <p>
 Um método JavaScript é uma propriedade de um objeto que contém uma definição de função. Métodos são funções armazenadas como propriedades do objeto. 
-    <ol>
-        <li>Um método consiste em um código que pode ser chamado pelo nome de seu objeto e seu nome de método usando a notação de ponto ou a notação de colchetes.</li>
-        <li>O método opera os dados contidos em uma classe.</li>
-        <li>Um método passa implicitamente o objeto no qual foi chamado.</li>
-        <li>Um método é uma função associada a uma propriedade do objeto.</li>
+    
+    •Um método consiste em um código que pode ser chamado pelo nome de seu objeto e seu nome de método usando a notação de ponto ou a notação de colchetes.
+    •O método opera os dados contidos em uma classe.</li>
+    •Um método passa implicitamente o objeto no qual foi chamado.</li>
+    •Um método é uma função associada a uma propriedade do objeto.</li>
 </p>
 
 <hr>
