@@ -52,12 +52,13 @@ Uma função é um bloco de código escrito para realizar algum conjunto especí
 <h4>Método</h4>
 <p>
 Um método JavaScript é uma propriedade de um objeto que contém uma definição de função. Métodos são funções armazenadas como propriedades do objeto. 
-    
-    •Um método consiste em um código que pode ser chamado pelo nome de seu objeto e seu nome de método usando a notação de ponto ou a notação de colchetes.
-    •O método opera os dados contidos em uma classe.</li>
-    •Um método passa implicitamente o objeto no qual foi chamado.</li>
-    •Um método é uma função associada a uma propriedade do objeto.</li>
 </p>
+    <ol>
+    <li>Um método consiste em um código que pode ser chamado pelo nome de seu objeto e seu nome de método usando a notação de ponto ou a notação de colchetes.
+    <li>O método opera os dados contidos em uma classe.</li>
+    <li>Um método passa implicitamente o objeto no qual foi chamado.</li>
+    <li>Um método é uma função associada a uma propriedade do objeto.</li>
+    </ol>
 
 <hr>
 
