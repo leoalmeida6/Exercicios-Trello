@@ -1,4 +1,5 @@
 # README
+
 <img align="center" src="https://img.freepik.com/free-vector/modern-fintech-logo-design-concept_96807-1011.jpg">
 <h1 align="center">We're FINTECH PAYMENT</h1>
 
@@ -10,7 +11,9 @@
 <hr>
 
 <h3> JAVA SCRIPT</h3>
-<p> JavaScript, é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. </p>
+<p> JavaScript, é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+Especificando mais, o Javascript atua na programação front-end, — a parte “visual” de uma aplicação (geralmente um site ou um app). Neste caso, o Javascript é usado junto com outras duas linguagens iniciais, o HTML e CSS. </p>
+
 
 <h3 align="center"> Declarações e suas diferenças</h3>
 
@@ -22,6 +25,6 @@
         <li>Variáveis de <b>var</b> podem ser atualizadas e declaradas novamente dentro de seu escopo. As variáveis de <b>let</b> podem ser atualizadas, mas não podem ser declaradas novamente. As variáveis de <b>const</b> não podem ser atualizadas nem declaradas novamente.</li>
         <li>Todas elas passam por hoisting para o topo de seu escopo. Porém, enquanto variáveis com <b>var</b> são inicializadas com <em>undefined</em>, as variáveis com <b>let</b> e <b>const</b> não são inicializadas.</li>
         <li>Enquanto <b>var</b> e <b>let</b> podem ser declaradas sem ser inicializadas, const precisa da inicialização durante a declaração.</li>
-
-    </ol>
 </p>
+
+<img align="center" src="https://pbs.twimg.com/media/EeVw-DOXgAAMtKk.jpg">
