@@ -1,5 +1,5 @@
 # README
-<img align="center" src="./img/foto2.jpg">
+<img align="center" src="https://img.freepik.com/free-vector/modern-fintech-logo-design-concept_96807-1011.jpg">
 <h1 align="center">We're FINTECH PAYMENT</h1>
 
 </p>
@@ -14,7 +14,7 @@
 
 <h3 align="center"> Declarações e suas diferenças</h3>
 
-<img align="center" src="./img/foto.jpg">
+<img align="center" src="https://storage.googleapis.com/hcode.com.br/blog/posts/159/cover_copy.jpg">
 
 <p> 
     <ol>
