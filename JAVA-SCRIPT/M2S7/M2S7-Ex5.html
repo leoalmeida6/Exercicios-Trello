@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5 - Trello</title>
+</head>
+
+<body>
+    <div></div>
+
+    <script>
+        class Professor {
+            constructor(nome, idade, sexo, disciplina) {
+                this.nome = nome;
+                this.idade = idade;
+                this.sexo = sexo;
+                this.disciplina = disciplina;
+            }
+            toString() {
+                const div = document.querySelector('div');
+                const h1 = document.createElement('h1');
+                const h3 = document.createElement('h3');
+
+                h1.innerText = 'Dados do professor:';
+                h3.innerText = (`Nome: ${this.nome} | Idade: ${this.idade} anos | Sexo: ${this.sexo} | Disciplina: ${this.disciplina}\n`)
+
+                document.body.appendChild(div);
+                div.appendChild(h1);
+                div.appendChild(h3);
+            }
+        }
+
+        const Evaldo = new Professor('Evaldo', 50, 'Masculino', 'Java');
+        Evaldo.toString();
+
+        const Leonardo = new Professor ('Leonardo', 26, 'Masculino', 'JavaScript');
+        Leonardo.toString();
+
+        const Simone = new Professor('Simone', 47, 'Feminino', 'SQL');
+        Simone .toString();
+
+    </script>
+</body>
+
+</html>
