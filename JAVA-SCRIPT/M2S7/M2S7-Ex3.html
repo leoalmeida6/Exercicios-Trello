@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3 - Trello</title>
+</head>
+
+<body>
+    <div></div>
+
+    <script>
+        const aluno = {
+            nome: 'Leonardo',
+            idade: 26,
+            turma: 'Senior',
+            sexo: 'Masculino',
+
+            imprimeDados: function () {
+                const div = document.querySelector('div');
+                const h1 = document.createElement('h1');
+                const h3 = document.createElement('h3');
+
+                h1.innerText = 'Dados do aluno:';
+                h3.innerText = (`Nome: ${this.nome} | Idade: ${this.idade} anos | Turma: ${this.turma} | Sexo: ${this.sexo}`)
+
+                document.body.appendChild(div);
+                div.appendChild(h1);
+                div.appendChild(h3);
+            }
+        }
+
+        aluno.imprimeDados();
+
+    </script>
+
+</body>
+
+</html>
