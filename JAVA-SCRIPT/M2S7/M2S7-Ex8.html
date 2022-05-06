@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8 - Trello</title>
+</head>
+<body>
+    <div></div>
+
+    <script>
+        class Pessoa {
+            #nome
+            #idade
+            #sexo
+            constructor(nome, idade, sexo) {
+                this.#nome = nome;
+                this.#idade = idade;
+                this.#sexo = sexo;
+            }
+
+            imprimirDados() {
+
+                const div = document.querySelector('div');
+                const h1 = document.createElement('h1');
+                const h3 = document.createElement('h3');
+
+                h1.innerText = 'Dados:';
+                h3.innerText = (`Nome: ${this.#nome} | Idade: ${this.#idade} anos | Sexo: ${this.#sexo} \n`)
+
+                document.body.appendChild(div);
+                div.appendChild(h1);
+                div.appendChild(h3);
+
+            }
+        }
+
+        class Aluno extends Pessoa {
+            #nome
+            #idade
+            #sexo
+            #turma
+            constructor(nome, idade, sexo, turma) {
+                super(nome, idade, sexo);
+                this.#turma = turma;
+            }
+
+            get nome() {
+                return this.#nome;
+            }
+            get idade() {
+                return this.#idade;
+            }
+            get sexo() {
+                return this.#sexo;
+            }
+            get turma() {
+                return this.#turma;
+            }
+
+            set nome(novoNome) {
+                this.#nome = novoNome;
+            }
+            set idade(novaIdade) {
+                this.#idade = novaIdade;
+            }
+            set sexo(novoSexo) {
+                this.#sexo = novoSexo;
+            }
+            set turma(novaTurma) {
+                this.#turma = novaTurma;
+            }
+
+
+            imprimirDados() {
+
+                const div = document.querySelector('div');
+                const h1 = document.createElement('h1');
+                const h3 = document.createElement('h3');
+
+                h1.innerText = 'Dados:';
+                h3.innerText = (`Nome: ${this.#nome} | Idade: ${this.#idade} anos | Sexo: ${this.#sexo} | Turma: ${this.#turma} \n`)
+
+                document.body.appendChild(div);
+                div.appendChild(h1);
+                div.appendChild(h3);
+
+            }
+        }
+
+        class Professor extends Pessoa {
+            #nome
+            #idade
+            #sexo
+            #disciplina
+            constructor(nome, idade, sexo, disciplina) {
+                super(nome, idade, sexo);
+                this.#disciplina = disciplina;
+            }
+
+            get nome() {
+                return this.#nome;
+            }
+            get idade() {
+                return this.#idade;
+            }
+            get sexo() {
+                return this.#sexo;
+            }
+            get disciplina() {
+                return this.#disciplina;
+            }
+
+            set nome(novoNome) {
+                this.#nome = novoNome;
+            }
+            set idade(novaIdade) {
+                this.#idade = novaIdade;
+            }
+            set sexo(novoSexo) {
+                this.#sexo = novoSexo;
+            }
+            set disciplina(novadisciplina) {
+                this.#disciplina = novadisciplina;
+            }
+
+            imprimirDados() {
+
+                const div = document.querySelector('div');
+                const h1 = document.createElement('h1');
+                const h3 = document.createElement('h3');
+
+                h1.innerText = 'Dados:';
+                h3.innerText = (`Nome: ${this.#nome} | Idade: ${this.#idade} anos | Sexo: ${this.#sexo} | Disciplina: ${this.#disciplina} \n`)
+
+                document.body.appendChild(div);
+                div.appendChild(h1);
+                div.appendChild(h3);
+
+            }
+
+        }
+
+        const Evaldo = new Professor('Andressa', 28, 'Feminino', 'JavaScript');
+        Evaldo.imprimirDados();
+        console.log(this.#nome);
+
+        const Leonardo = new Aluno('Leonardo', 26, 'Masculino', 'Sênior');
+        Leonardo.imprimirDados();
+    </script>
+</body>
+</html>
