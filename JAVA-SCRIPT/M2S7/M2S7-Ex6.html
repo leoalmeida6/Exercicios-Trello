@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6 - Trello</title>
+</head>
+
+<body>
+    <div></div>
+
+    <script>
+
+        class Pessoa {
+            constructor(nome, idade, sexo) {
+                this.nome = nome;
+                this.idade = idade;
+                this.sexo = sexo;
+            }
+
+            imprimirDados() {
+                const div = document.querySelector('div');
+                const h1 = document.createElement('h1');
+                const h3 = document.createElement('h3');
+
+                h1.innerText = 'Dados:';
+                h3.innerText = (`Nome: ${this.nome} | Idade: ${this.idade} anos | Sexo: ${this.sexo} \n`)
+
+                document.body.appendChild(div);
+                div.appendChild(h1);
+                div.appendChild(h3);
+            }
+        }
+
+        class Aluno extends Pessoa {
+            constructor(nome, idade, sexo, turma) {
+                super(nome, idade, sexo);
+                this.turma;
+            }
+        }
+
+        class Professor extends Pessoa {
+            constructor(nome, idade, sexo, disciplina) {
+                super(nome, idade, sexo);
+                this.disciplina = disciplina;
+            }
+            
+        }
+
+
+
+
+        const Evaldo = new Professor('Evaldo', 50, 'Masculino', 'Java');
+        Evaldo.imprimirDados();
+
+        const Leonardo = new Aluno('Leonardo', 26, 'Masculino', 'Sênior');
+        Leonardo.imprimirDados();
+
+    </script>
+</body>
+
+</html>
