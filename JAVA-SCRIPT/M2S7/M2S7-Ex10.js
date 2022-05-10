@@ -5,15 +5,15 @@ function aluno(nome, idade, turma, sexo) {
     let turmaAluno = turma;
     const sexoAluno = sexo;
 
-    function imprimeDados() {
+    function dadosAluno() {
         const span = document.createElement('span');
         const h1 = document.createElement('h1');
 
         h1.innerText = 'Dados do aluno:';
-        span.innerText = (`Nome: ${this.nomeAluno} | Idade: ${this.idadeAluno} anos | Turma: ${this.turmaAluno} | Sexo: ${this.sexoAluno}\n`)
+        span.innerText = (`Nome: ${nomeAluno} | Idade: ${idadeAluno} anos | Turma: ${turmaAluno} | Sexo: ${sexoAluno}\n`)
 
         document.body.appendChild(h1);
-        document.body.appendChild(span);
+        document.body.appendChild(span); 
     }
 
     return {
@@ -22,7 +22,12 @@ function aluno(nome, idade, turma, sexo) {
         getIdade: () => idadeAluno,
         getTurma: () => turmaAluno,
         getTurma: () => sexoAluno,
+
         setTurma: () => turmaAluno = novaTurma,
-        infoAluno,
+        dadosAluno,
     }
+    
 }
+
+const leonardo = aluno('Leonardo', 26, 'Sênior', 'Masculino');
+leonardo.dadosAluno();
